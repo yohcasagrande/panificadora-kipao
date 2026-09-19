@@ -1,12 +1,12 @@
-# Site da Panificadora Ki-pão
+# Site da Panificadora Ki-Pão
 
 Site estático (HTML, CSS e JavaScript puro, sem build) pronto para a Vercel.
 
 ```
 index.html        página única
-css/style.css     visual
-js/main.js        status aberto/fechado, menu do celular e encomenda com hora marcada
-img/              fotos da galeria da Ki-pão no Google Maps, já otimizadas
+style.css         visual
+main.js           status aberto/fechado, menu do celular e encomenda com hora marcada
+*.jpg             fotos da galeria da Ki-Pão no Google Maps, já otimizadas
 vercel.json       URLs limpas e cache das imagens
 robots.txt, sitemap.xml, favicon.svg, apple-touch-icon.png
 ```
@@ -15,7 +15,7 @@ robots.txt, sitemap.xml, favicon.svg, apple-touch-icon.png
 
 1. Em github.com, clique em **New repository**, nome `panificadora-kipao`, e crie.
 2. Na tela do repositório vazio, clique em **uploading an existing file**.
-3. Arraste para a página **o conteúdo** desta pasta (index.html, css, js, img e os outros arquivos), não a pasta inteira. Clique em **Commit changes**.
+3. Arraste para a página **o conteúdo** desta pasta (todos os arquivos), não a pasta inteira. Clique em **Commit changes**.
 4. Em vercel.com, entre com a conta do GitHub, clique em **Add New > Project** e importe `panificadora-kipao`.
 5. Em Framework Preset deixe **Other**, não mexa em mais nada e clique em **Deploy**.
 6. O site fica em `https://panificadora-kipao.vercel.app`. Cada novo commit no GitHub atualiza o site sozinho.

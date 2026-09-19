@@ -1,5 +1,5 @@
 /* =========================================================
-   Panificadora Ki-pão · scripts do site
+   Panificadora Ki-Pão · scripts do site
    ========================================================= */
 (() => {
   'use strict';
@@ -429,7 +429,7 @@
   function mensagem() {
     const o = oc();
     const linhas = [
-      'Olá, Ki-pão! Quero fazer uma encomenda pelo site.',
+      'Olá, Ki-Pão! Quero fazer uma encomenda pelo site.',
       '',
       `*Ocasião:* ${o.nome}${o.pessoas ? ` (${descrevePessoas()})` : ''}`,
       '*Itens:*',
